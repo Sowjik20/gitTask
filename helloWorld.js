@@ -1,5 +1,6 @@
-function hello(message) {
+function hello() {
+  let message = prompt("Please enter your favourite quote");
   console.log(`${message}`);
 }
 
-hello("Git is Awesome!");
+hello();
